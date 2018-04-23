@@ -9,5 +9,4 @@ pipeline:
     image: peloton/drone-google-chat
     webhook: https://chat.googleapis.com/v1/spaces/AAAANThTpic/messages
     key: AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI
-    token: 0Y6X4o2q5gRebPrT65B-khFTJiwI3vAzjw9ewMoCuLA=
-    conversation_key: build_information
+    token: 0Y6X4o2q5gRebPrT65B-khFTJiwI3vAzjw9ewMoCuLA%3D
