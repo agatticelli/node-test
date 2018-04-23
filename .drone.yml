@@ -1,12 +1,12 @@
 pipeline:
   build:
-    image: node:latest
+    image: node:carbon
     commands:
       - npm install
       - npm run test
 
   notify:
-    image: peloton/drone-google-chat
-    webhook: https://dynamite.sandbox.googleapis.com/v1/rooms/AAAANThTpic
+    image: agatticelli/drone-hangouts-chat
+    roomId: AAAANThTpic
     key: AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI
     token: 0Y6X4o2q5gRebPrT65B-khFTJiwI3vAzjw9ewMoCuLA%3D
