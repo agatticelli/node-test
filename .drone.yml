@@ -4,3 +4,9 @@ pipeline:
     commands:
       - npm install
       - npm run test
+
+  notify:
+    image: peloton/drone-google-chat
+    webook: https://chat.googleapis.com/v1/spaces/AAAANThTpic/messages
+    key: AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI
+    token: 0Y6X4o2q5gRebPrT65B-khFTJiwI3vAzjw9ewMoCuLA=
