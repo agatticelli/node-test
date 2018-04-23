@@ -11,7 +11,7 @@ var app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use('/ping', (req, res, next) => res.status(200).send("pong"));
+app.use('/ping', (req, res, next) => res.status(200).send("pongui"));
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
