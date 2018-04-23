@@ -6,7 +6,7 @@ pipeline:
       - npm run test
 
   notify:
-    image: agatticelli/drone-hangouts-chat:1.0.2
+    image: agatticelli/drone-hangouts-chat:1.0.6
     room_id: AAAANThTpic
     key: AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI
     token: 0Y6X4o2q5gRebPrT65B-khFTJiwI3vAzjw9ewMoCuLA%3D
