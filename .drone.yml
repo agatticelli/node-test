@@ -7,6 +7,6 @@ pipeline:
 
   notify:
     image: agatticelli/drone-hangouts-chat:1.0.7
-    room_id: AAAAS5FvlIQ
+    room_id: AAAArpurF-o
     key: AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI
-    token: CiqvAgIuurr276UHaFbReNQgkX7aAO1ynDDAckEIOgY%3D
+    token: n_GX_P0TpiNu7Ka6XkLl7OJIJRN9xuTjzT1KB7fExKU%3D
